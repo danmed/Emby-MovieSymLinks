@@ -29,26 +29,16 @@ The script reads a **source** directory and builds a clean **destination** direc
 
 **BEFORE:**
 
-📁 UnsortedMovies/
-├── 📁 The Matrix (1999)/
-│   ├── 📄 The.Matrix.1999.BluRay.1080p.x265-GRoUP.mkv
-│   └── 🖼️ cover.jpg
-├── 📁 Blade Runner 2049 (2017)/
-│   ├── 📄 br-2049-uhd-4k-remux.mp4
-│   └── 📄 info.nfo
-└── 📁 System Volume Information/
-└── ... (system files)
+<img width="565" height="330" alt="image" src="https://github.com/user-attachments/assets/cd6e02d3-5abe-412c-8b2d-3bf96ead5bfe" />
+
 
 
 > After running the script, the new destination directory will look like this:
 
 **AFTER:**
 
-📁 OrganizedMovies/
-├── 📁 The Matrix (1999)/
-│   └── 🔗 The Matrix (1999)-1080p.mkv
-└── 📁 Blade Runner 2049 (2017)/
-└── 🔗 Blade Runner 2049 (2017)-4k.mp4
+<img width="415" height="184" alt="image" src="https://github.com/user-attachments/assets/d7ed6244-b652-498e-837f-a067fa279d09" />
+
 
 *Note: The files in `OrganizedMovies` are **symlinks** (shortcuts), not copies. The original files in `UnsortedMovies` remain untouched.*
 
