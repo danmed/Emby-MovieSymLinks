@@ -55,10 +55,11 @@ You can clone this repository:
 ```bash
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
+```
 
 Or just download the organize_movies.py file directly.
 
-Usage
+## Usage
 
 The script is run from the command line, and it requires two arguments: the path to your source directory and the path to your destination directory.
 Bash
@@ -67,7 +68,7 @@ python organize_movies.py <source_directory> <destination_directory>
 
 Important: If your file paths contain spaces, be sure to wrap them in quotes.
 
-Examples
+## Examples
 
 On macOS / Linux:
 Bash
@@ -81,7 +82,7 @@ python organize_movies.py "C:\Users\YourUser\Downloads\Movies" "D:\Plex Library\
 
 The script will print its progress to the terminal, indicating which folders it's processing, which links it's creating, and which files or folders it's skipping.
 
-Configuration
+## Configuration
 
 You can customize the script's behavior by editing these two variables at the top of the organize_movies.py file:
 
