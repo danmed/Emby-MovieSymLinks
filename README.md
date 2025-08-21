@@ -67,8 +67,8 @@ No installation is necessary. Simply download the `organize_movies.py` script to
 
 You can clone this repository:
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/danmed/Emby-MovieSymLinks.git](https://github.com/danmed/Emby-MovieSymLinks.git)
+cd Emby-MovieSymLinks
 ````
 
 Or just download the `organize_movies.py` file directly.
